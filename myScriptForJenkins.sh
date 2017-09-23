@@ -18,7 +18,7 @@ apt-get install -y wget
 add-apt-repository ppa:openjdk-r/ppa -y
 apt-get update
 apt-get -y install apache2 openjdk-8-jdk
-update-alternatives --config java
+update-alternatives --config java 
 apt-get update
 
 #installing maven
