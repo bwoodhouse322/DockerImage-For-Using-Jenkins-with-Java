@@ -6,4 +6,4 @@ ADD myScriptForJenkins.sh /
 
 EXPOSE 8080
 
-CMD = ["bash","~/myScriptForJenkins.sh"]
+CMD = ["/bin/bash","~/myScriptForJenkins.sh"]
